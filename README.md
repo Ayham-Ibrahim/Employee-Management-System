@@ -34,7 +34,8 @@ now you can use this documentation (that i made it by Postman) to test the apis
 ```bash
 https://documenter.getpostman.com/view/30465364/2sA3Bt2pmB
 ```
-#### follow this step because the is alot of relation 
+### follow this step because the is alot of relation 
+##### first of all make admin account by register a user account because you need to be authenticated and you have to take the token with you while testing 
 1- add department 
 you can use the seeder i made befor (run this command )
 ```bash
