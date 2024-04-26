@@ -24,6 +24,7 @@ you should to migrate the database so do this
 ```bash
 php artisan migrate
 ```
+now you are ready to start testing
 then run the project 
 ```bash
 php artisan serve
@@ -33,3 +34,14 @@ now you can use this documentation (that i made it by Postman) to test the apis
 ```bash
 https://documenter.getpostman.com/view/30465364/2sA3Bt2pmB
 ```
+#### follow this step because the is alot of relation 
+1- add department 
+you can use the seeder i made befor (run this command )
+```bash
+php artisan db:seed --class=DepartmentSeeder
+```
+2- add Employee
+
+3- add project and Note 
+
+
