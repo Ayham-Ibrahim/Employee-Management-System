@@ -40,13 +40,13 @@ Route::middleware('auth')->group(function () {
     Route::post('/add-department-note/{department}',[NoteController::class, 'storeDepartmentNote']);
     Route::put('/update-note/{note}',[NoteController::class, 'update']);
     Route::delete('/delete-note/{note}',[NoteController::class, 'destroy']);
-    ### End Note routes ### 
+    ### End Note routes ###
 
 
     ##### restore and forceDelete #####
-        Route::get('restore-department/{department}',[DepartmentController::class, 'restore']);
+        Route::post('restore-department/{department}',[DepartmentController::class, 'restore']);
         Route::delete('department-forceDelete/{department}',[DepartmentController::class, 'forceDelete']);
-        Route::get('restore-employee/{employee}',[EmployeeController::class, 'restore']);
+        Route::post('restore-employee/{employee}',[EmployeeController::class, 'restore']);
         Route::delete('empoyee-forceDelete/{employee}',[EmployeeController::class, 'forceDelete']);
     ###################################
 
