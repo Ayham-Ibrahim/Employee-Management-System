@@ -45,5 +45,5 @@ php artisan db:seed --class=DepartmentSeeder
 
 3- add project and Note 
 
-:monocle_face: Enjoy learning about this combination of relationships  :heart_on_fire:
+ :smiley:  Enjoy learning about this combination of relationships  :heart_on_fire:
 
